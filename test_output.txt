@@ -1,0 +1,256 @@
+------------System 1 Test Output-------------------
+
+javac IVIS.java
+java IVIS.java
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+I
+Enter the key to insert: 
+Air Condition
+---Inserted: Air Condition--- Value given: 0
+
+#Above result is as expected, I to insert, then key "Air Condition" is inserted, value given is 0
+
+
+
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+I     
+Enter the key to insert: 
+Side Mirror
+---Inserted: Side Mirror--- Value given: 1
+
+#Above result is as expected, I to insert, then key "Side Mirror" is inserted, value given is 1
+
+
+
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+I
+Enter the key to insert: 
+Heating
+---Inserted: Heating--- Value given: 2
+
+#Above result is as expected, I to insert, then key "Heating" is inserted, value given is 2
+
+
+
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+S
+Enter the key to search: 
+Side Mirror
+Found key: Side Mirror --- with value 1
+
+#Above result is as expected, S to search, then key "Side Mirror" is found, with value 1
+
+
+
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+D
+Enter the key to delete: 
+Side Mirror
+---Deleted: Side Mirror---
+
+#Above result is as expected, D to delete, then key "Side Mirror" is deleted.
+
+
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+S
+Enter the key to search: 
+Side Mirror
+Key not found
+
+#Above result is as expected, S to search, then key "Side Mirror" is not found since it was removed.
+
+
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+S
+Enter the key to search: 
+Heating
+Found key: Heating --- with value 1
+
+#Above result is as expected, S to search, then key "Heating" is found, with value 1 (took value of deleted side mirror key)
+
+
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+c
+c is not a valid input, try again
+
+#Above result is as expected, c does nothing, error is shown, user is shown menu again
+
+
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+D
+Enter the key to delete: 
+Seat Recline
+Key not found
+
+#Above result is as expected, D to delete, then key "Side Mirror" does not exist, error shown
+
+
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+exit
+
+#Above result is as expected, exit to exit, the program terminates 
+
+
+
+
+
+
+
+------------System 2 Test Output-------------------
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+d
+Enter the key to delete: 
+Brake Systems
+List is empty
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+s
+Enter the key to search: 
+Brake Systems
+List is empty
+Nothing inside List
+
+#Above result is as expected, S to Search, then key "Brake Systems" is inserted, there is nothing in list
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+i
+Enter the key to insert: 
+Brake Systems
+Added Key:Brake Systems
+
+#Above result is as expected, I to insert, then key "Brake Systems" is inserted, value given is 1
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+i
+Enter the key to insert: 
+Ignition System
+Added Key:Ignition System
+
+#Above result is as expected, I to insert, then key "Ignition System" is inserted, value given is 2
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+i
+Enter the key to insert: 
+Drive Train
+Added Key:Drive Train
+
+#Above result is as expected, I to insert, then key "Drive Train" is inserted, value given is 3
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+i
+Enter the key to insert: 
+Air Conditioning 
+Added Key:Air Conditioning
+
+#Above result is as expected, I to insert, then key "Air Condition" is inserted, value given is 4 
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+s
+Enter the key to search: 
+Air Conditioning 
+Found key: Air Conditioning  With value: 4
+Brake Systems Ignition System Drive Train Air Conditioning  
+
+#Above result is as expected, S to Search, then key "Air Conditioning" is inserted, "Found key: Air Conditioning  With value: 4" is printed
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+s
+Enter the key to search: 
+Ignition System
+Found key: Ignition System With value: 2
+Brake Systems Ignition System Drive Train Air Conditioning  
+
+#Above result is as expected, S to Search, then key "Ignition System" is inserted, "Found key: Ignition System With value: 2" is printed
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+d
+Enter the key to delete: 
+Ignition System
+Deleted Key: Ignition System
+
+#Above result is as expected, D to delete, then key "Ignition System" is deleted
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
+s
+Enter the key to search: 
+Ignition System
+NOT Found
+Brake Systems Drive Train Air Conditioning
+
+#Above result is as expected, S to Search, then key "Ignition System" is inserted, "NOT Found" is printed  
+
+Enter 'I' to Insert key.
+Enter 'D' to Delete key.
+Enter 'S' to Search key.
+or enter "exit" to stop the program.
